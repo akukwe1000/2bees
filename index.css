@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgba(223, 165, 165,0.3) !important;
+    background: black !important;
 }
 
 .Laheader{
@@ -22,12 +22,13 @@ body{
 nav{
     /* border: 2px solid tomato; */
     height: 50px;
-    background:black;
+    background:red;
     color: white;
     font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
 
 }
 .logo{
@@ -124,6 +125,12 @@ nav{
     border-radius: 50%;
 
 }
+.link{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+}
 
 
 
@@ -140,7 +147,7 @@ nav{
 
  /* footer starts here  */
  footer{
-    background: black;
+    background: rgba(15, 15, 15,0.3) !important;
     /* border: 2px solid green; */
     /* height: 400px; */
  }
